@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "widget_pack",
+  "id": "irs_widget_pack",
   "version": "${version}",
 
   "name": "Widget Pack",
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/widget_pack/icon.png",
+  "icon": "assets/irs_widget_pack/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.ilirus.widget.pack.WidgetPack::init"
+      "com.ilirus.widget.pack.WidgetPackKt::init"
     ]
   },
   "mixins": [
