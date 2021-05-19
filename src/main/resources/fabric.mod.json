@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "widget_pack",
+  "version": "${version}",
+
+  "name": "Widget Pack",
+  "description": "小工具合集",
+  "authors": [
+    "Ilirus"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/ChaosAlphard/fabric-widget-pack"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/widget_pack/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ilirus.widget.pack.WidgetPack::init"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
