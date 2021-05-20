@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+    "item": "irs_widget_pack:mod_icon_block"
+  }],
+  "result": {
+    "item": "irs_widget_pack:mod_icon",
+    "count": 8
+  }
+}

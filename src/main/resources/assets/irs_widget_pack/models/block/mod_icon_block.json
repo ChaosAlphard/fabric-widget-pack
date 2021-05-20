@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "irs_widget_pack:block/mod_icon_block"
+  }
+}

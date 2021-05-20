@@ -17,14 +17,14 @@ class MaterialPreset {
 
         fun construct(builder: Builder): Material {
             return Material(
-                    builder.color,
-                    builder.liquid,
-                    builder.solid,
-                    builder.blocksMovement,
-                    builder.blocksLight,
-                    builder.burnable,
-                    builder.replaceable,
-                    builder.pistonBehavior
+                builder.color,
+                builder.liquid,
+                builder.solid,
+                builder.blocksMovement,
+                builder.blocksLight,
+                builder.burnable,
+                builder.replaceable,
+                builder.pistonBehavior
             );
         }
     }

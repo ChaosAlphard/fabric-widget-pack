@@ -44,8 +44,8 @@ class ModIcon : Item(settings) {
         val settings: Settings = Settings()
             // 物品分组
             .group(ModItemGroup.ITEM_GROUP)
-            // 合成后返回的物品
-            .recipeRemainder(Items.GLASS_BOTTLE)
+            // 此物品作为合成材料参与合成后返回的物品
+            // .recipeRemainder(Items.HONEYCOMB)
             // 稀有度 (标签颜色)
             .rarity(Rarity.UNCOMMON)
             // 食物属性, 设置后该物品即可食用

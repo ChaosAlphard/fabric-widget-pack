@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "irs_widget_pack:mod_icon"
+    }
+  },
+  "result": {
+    "item": "irs_widget_pack:mod_icon_block",
+    "count": 1
+  }
+}
