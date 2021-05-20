@@ -8,6 +8,7 @@ import net.minecraft.entity.effect.StatusEffects
 import net.minecraft.item.FoodComponent
 import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
+import net.minecraft.item.Items
 import net.minecraft.text.Text
 import net.minecraft.text.TranslatableText
 import net.minecraft.util.Identifier
@@ -43,6 +44,8 @@ class ModIcon : Item(settings) {
         val settings: Settings = Settings()
             // 物品分组
             .group(ModItemGroup.ITEM_GROUP)
+            // 合成后返回的物品
+            .recipeRemainder(Items.GLASS_BOTTLE)
             // 稀有度 (标签颜色)
             .rarity(Rarity.UNCOMMON)
             // 食物属性, 设置后该物品即可食用

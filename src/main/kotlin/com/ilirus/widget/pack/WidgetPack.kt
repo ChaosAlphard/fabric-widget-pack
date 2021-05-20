@@ -1,5 +1,6 @@
 package com.ilirus.widget.pack
 
+import com.ilirus.widget.pack.block.ModIconBlock
 import com.ilirus.widget.pack.item.ModIcon
 import net.minecraft.util.registry.Registry
 
@@ -7,8 +8,13 @@ import net.minecraft.util.registry.Registry
 fun init() {
     println("Hello Fabric world!")
     registerItem()
+    registerBlock()
 }
 
 fun registerItem() {
     Registry.register(Registry.ITEM, ModIcon.identifier, ModIcon.instance)
+}
+
+fun registerBlock() {
+    Registry.register(Registry.BLOCK, ModIconBlock.identifier, ModIconBlock.instance)
 }
