@@ -24,7 +24,7 @@ class ModIconBlock: Block(settings) {
 
         val instance = ModIconBlock();
 
-        val itemInstance = BlockItem(instance, Item.Settings().group(ModItemGroup.ITEM_GROUP));
+        val itemInstance = BlockItem(instance, Item.Settings().group(ModItemGroup.ITEM));
 
         val identifier = Identifier(ModConst.namespace, "mod_icon_block")
     }

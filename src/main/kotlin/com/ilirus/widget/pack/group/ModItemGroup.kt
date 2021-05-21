@@ -16,8 +16,8 @@ import net.minecraft.util.Identifier
 class ModItemGroup {
     companion object {
         @JvmStatic
-        val ITEM_GROUP: ItemGroup = FabricItemGroupBuilder
-            .build(Identifier(ModConst.namespace,"general"))
+        val ITEM: ItemGroup = FabricItemGroupBuilder
+            .build(Identifier(ModConst.namespace,"item"))
             { ItemStack(ModIcon.instance) }
     }
 }

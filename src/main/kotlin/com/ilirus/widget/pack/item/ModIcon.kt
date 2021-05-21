@@ -8,7 +8,6 @@ import net.minecraft.entity.effect.StatusEffects
 import net.minecraft.item.FoodComponent
 import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
-import net.minecraft.item.Items
 import net.minecraft.text.Text
 import net.minecraft.text.TranslatableText
 import net.minecraft.util.Identifier
@@ -43,7 +42,7 @@ class ModIcon : Item(settings) {
         @JvmStatic
         val settings: Settings = Settings()
             // 物品分组
-            .group(ModItemGroup.ITEM_GROUP)
+            .group(ModItemGroup.ITEM)
             // 此物品作为合成材料参与合成后返回的物品
             // .recipeRemainder(Items.HONEYCOMB)
             // 稀有度 (标签颜色)
