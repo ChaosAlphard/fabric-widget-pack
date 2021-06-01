@@ -6,7 +6,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "irs_widget_pack:mod_icon_block"
+          "name": "irs_widget_pack:mod_icon",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 8,
+              "max": 8,
+              "type": "minecraft:uniform"
+            }
+          }]
         }
       ],
       "conditions": [

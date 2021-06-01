@@ -2,5 +2,6 @@
   "itemGroup.irs_widget_pack.item": "物品",
   "item.irs_widget_pack.mod_icon": "模组icon",
   "item.irs_widget_pack.mod_icon.tooltip_1": "模组的图标, 可食用",
-  "item.irs_widget_pack.mod_icon.tooltip_2": "食用后获得2级生命恢复"
+  "item.irs_widget_pack.mod_icon.tooltip_2": "食用后获得2级生命恢复",
+  "block.irs_widget_pack.mod_icon_block": "模组icon块"
 }

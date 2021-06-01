@@ -8,6 +8,7 @@ import net.minecraft.item.BlockItem
 import net.minecraft.item.Item
 import net.minecraft.sound.BlockSoundGroup
 import net.minecraft.util.Identifier
+import net.minecraft.util.Rarity
 
 /**
  * SiChuan QingSoft Information Technology Co., Ltd.
@@ -24,7 +25,7 @@ class ModIconBlock: Block(settings) {
 
         val instance = ModIconBlock();
 
-        val itemInstance = BlockItem(instance, Item.Settings().group(ModItemGroup.ITEM));
+        val itemInstance = BlockItem(instance, Item.Settings().rarity(Rarity.RARE).group(ModItemGroup.ITEM));
 
         val identifier = Identifier(ModConst.namespace, "mod_icon_block")
     }
