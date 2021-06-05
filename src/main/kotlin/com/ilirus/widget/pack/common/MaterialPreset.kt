@@ -5,8 +5,6 @@ import net.minecraft.block.MaterialColor
 import net.minecraft.block.piston.PistonBehavior
 
 /**
- * SiChuan QingSoft Information Technology Co., Ltd.
- * Copyright (C) 2014-2021 All Rights Reserved.
  * @author wanjunjiang@qmrjkj.com
  * Date: 2021/5/20 14:58
  * Description:
@@ -29,8 +27,7 @@ class MaterialPreset {
         }
     }
 
-    class Builder(color: MaterialColor) {
-        val color: MaterialColor = MaterialColor.CLEAR;
+    class Builder(val color: MaterialColor) {
         var pistonBehavior: PistonBehavior = PistonBehavior.NORMAL
         var liquid = false
         var burnable = false

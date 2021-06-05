@@ -11,8 +11,6 @@ import net.minecraft.util.Identifier
 import net.minecraft.util.Rarity
 
 /**
- * SiChuan QingSoft Information Technology Co., Ltd.
- * Copyright (C) 2014-2021 All Rights Reserved.
  * @author wanjunjiang@qmrjkj.com
  * Date: 2021/5/20 10:25
  * Description:
